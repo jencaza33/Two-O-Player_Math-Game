@@ -6,4 +6,4 @@ TwO-O-Player is a two player, OOP based command line application game, made with
 
   The player who is prompted to answer a question, must answer correctly or lose a life. At the end of every turn, the game will output the new scores for both players, so players know where they stand.
 
-![game play]()
+![game play](https://github.com/jencaza33/Two-O-Player_Math-Game/blob/main/docs/Two-O-Player.gif?raw=true)

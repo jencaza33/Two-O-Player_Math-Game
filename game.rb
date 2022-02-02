@@ -3,8 +3,8 @@ require "./question"
 
 class Game
   def initialize
-    @player1 = Player.new('Taylor', 3)
-    @player2 = Player.new('Louis', 3)
+    @player1 = Player.new('Jen', 3)
+    @player2 = Player.new('Becky', 3)
     @current_player = @player1
   end
   
@@ -27,6 +27,20 @@ class Game
     question = Question.new
     question.new_question(@current_player.name)
     answer = gets.chomp.to_i
+
+    if answer == question.sum
+      puts "YES! You are correct!"
+
+    else
+      puts "Seriously? No!"
+    end
+
+
+
+
+
+
+
   end
 
 
